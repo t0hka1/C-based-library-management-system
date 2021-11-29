@@ -1,7 +1,8 @@
-# Collaborative-development-attempt
-C-based management system
+# C-based management system
 
-### 项目说明：
+Collaborative-development-attempt
+
+#### 项目说明：
 
 ##### 	该项目是基于c语言的图书管理系统
 
@@ -21,3 +22,7 @@ C-based management system
   - 用于声明一些格式化输出的函数
 - tool.h                
   - 用于声明一些工具类的自定义函数
+  =======
+# C-based management system
+Collaborative-development-attempt
+>>>>>>> master
