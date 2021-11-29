@@ -22,7 +22,4 @@ Collaborative-development-attempt
   - 用于声明一些格式化输出的函数
 - tool.h                
   - 用于声明一些工具类的自定义函数
-  =======
-# C-based management system
-Collaborative-development-attempt
->>>>>>> master
+  
