@@ -1,2 +1,2 @@
-# Collaborative-development-attempt
-C-based management system
+# C-based management system
+Collaborative-development-attempt
