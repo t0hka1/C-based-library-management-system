@@ -32,13 +32,13 @@ Collaborative-development-attempt
 │  │      handleBook.c 
 │  │      handleBook.h
 │  │
-│  └─user			 //存放所有与用户操作相关的.c .h文件,handleTools存放二级调用函数
+│  └─user		//存放所有与用户操作相关的.c .h文件,handleTools存放二级调用函数
 │          handleUser.c
 │          handleUser.h
 │          handleUserTools.c         
 │          handleUserTools.h
 │
-├─src							//所有用户信息和书籍信息存在src目录下
+├─src				//所有用户信息和书籍信息存在src目录下
 │      infoUser.txt
 │
 ├─toolkit                           //toolkit目录下存放一些工具函数
