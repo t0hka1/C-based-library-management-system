@@ -1,5 +1,7 @@
 # Git 教程
 
+## 优先看[关于Git这一篇就够了](https://blog.csdn.net/bjbz_cxy/article/details/116703787)
+
 ## 导入
 
 Git 是一个分布式版本控制软件 最初由林纳斯·托瓦兹创作 于2005年以GPL发布 最初目的是为更好地管理Linux内核开发而设计
