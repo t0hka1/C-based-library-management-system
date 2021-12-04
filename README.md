@@ -12,7 +12,8 @@ Collaborative-development-attempt
 
 项目文件结构说明：
 
-/:
+```
+.
 │  .gitignore                         //git push 将会忽略的文件
 │  LICENSE                           //版权声明
 │  main.c                              //主函数
@@ -46,3 +47,7 @@ Collaborative-development-attempt
 └─view                                  //视图的呈现相关放在view目录下
         menu.c
         menu.h
+```
+
+
+
