@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 //#include "handleBook.h"
-#include "handleUser.h"
-#include "menu.h"
-#include "tool.h"
+#include "./moudle/user/handleUser.h"
+#include "./view/menu.h"
+#include "./toolkit/tool.h"
 
 
 int main(){
     // 局部变量定义区
-    int flag1=1,flag2,flag3;
+    int flag1=1,flag2=1,flag3;
     char choice1,choice2,choice3;
 
 
@@ -32,7 +32,35 @@ int main(){
 
         //登录模块 
         else if(choice1=='2'){
-
+            while (flag2){
+                system("cls");
+                menu2();
+                choice2=getch();
+                while (choice2!='1'&&choice2!='2'&&choice2!='3'&&choice2!='4'){
+                    // 超级管理员
+                    if (choice2=="1"){
+                        system("cls");
+                        sign_in(1);
+                        getchar();
+                    }
+                    // 管理员
+                    else if(choice2=='2'){
+                        system("cls");
+                        sign_in(2);
+                        getchar();
+                    }
+                    // 普通用户
+                    else if (choice2=='3'){
+                        system("cls");
+                        sign_in(3);
+                        getchar();
+                    }
+                    // 返回上一级
+                    else if (choice2=='4'){
+                        flag2=0;
+                    }               
+                }
+            }
         }
 
         // 游客模式
