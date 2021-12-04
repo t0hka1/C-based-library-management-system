@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 //#include "handleBook.h"
-#include "./moudle/user/handleUser.h"
-#include "./view/menu.h"
-#include "./toolkit/tool.h"
+#include "moudle/user/handleUser.h"
+#include "view/menu.h"
+#include "toolkit/tool.h"
 
 
 int main(){
