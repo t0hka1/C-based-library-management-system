@@ -9,7 +9,7 @@
 
 int main(){
     // 局部变量定义区
-    int flag1,flag2,flag3;
+    int flag1=1,flag2,flag3;
     char choice1,choice2,choice3;
 
 
@@ -22,7 +22,6 @@ int main(){
         choice1=getch();
         while(choice1!='1'&&choice1!='2'&&choice1!='3'&&choice1!='4')
             choice1=getch();
-        fflush(stdin);
 
         // 注册模块，该分支只能注册普通用户
         if(choice1=='1'){
