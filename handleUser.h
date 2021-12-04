@@ -6,7 +6,7 @@ typedef struct user
     char name[30];
     char ID[20];
     char password[30];
-    int flag; //flag: 1=>super_user 2=>system_user 3=>normal_user 
+    int power; //power: 1=>super_user 2=>system_user 3=>normal_user 
 }USER;
 
 
