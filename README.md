@@ -18,7 +18,8 @@ Collaborative-development-attempt
 │ .gitignore                         //git push 将会忽略的文件
 │  LICENSE                           //版权声明
 │  main.c                            //主函数
-│  README.md                   
+│  README.md 
+│  makefile
 ├─doc							 //存放了一些关于git和github的说明文档
 │  │  git.md
 │  │  github.md
@@ -31,20 +32,21 @@ Collaborative-development-attempt
 │  ├─book                           //存放所有与书籍操作相关的.c .h文件
 │  │      handleBook.c 
 │  │      handleBook.h
-│  │      handleBookTools.c handleBookT
+│  │      handleBookTools.c 
+│  │      handleBookTools.h
 │  └─user		//存放所有与用户操作相关的.c .h文件,handleTools存放二级调用函数
 │          handleUser.c
 │          handleUser.h
 │          handleUserTools.c         
 │          handleUserTools.h
 │
-├─src				//所有用户信息和书籍信息存在src目录下
-│      infoUser.txt
-│
-│
+├─data				//所有用户信息和书籍信息存在src目录下
+│          infoUser.csv
+│          library.csv
+│          record_of_borrowing_books.csv
 └─view                              //视图的呈现相关放在view目录下
-        menu.c
-        menu.h
+│        menu.c
+│        menu.h
 
 ```
 
