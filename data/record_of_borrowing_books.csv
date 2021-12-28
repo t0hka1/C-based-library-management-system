@@ -1,0 +1,11 @@
+编号 书名 作者 出版社 类型 价格 借书者ID
+100001 Harry_Potter J.K._Rowling Bloomsbury_PLC 外国文学 328.0 0001
+100003 Sherlock_Holmes Arthur_Conan_Doyle Bantam_Classics 外国文学 27.0 0003
+200001 西游记 吴承恩 人民出版社 文学 65.0 0001
+200001 西游记 吴承恩 人民出版社 文学 65.0 0005
+100001 Harry_Potter J.K._Rowling Bloomsbury_PLC 外国文学 328.0 0005
+300001 时间简史 霍金 科学出版社 科学 50.0 0009
+200004 三国演义 吴承恩 文学出版社 文学 30.0 6666
+100001 Harry_Potter J.K._Rowling Bloomsbury_PLC 外国文学 328.0 1234
+100001 Harry_Potter J.K._Rowling Bloomsbury_PLC 外国文学 328.0 1234
+300001 时间简史 霍金 科学出版社 科学 50.0 0003
