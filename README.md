@@ -19,17 +19,17 @@ Collaborative-development-attempt
 │  LICENSE                           //版权声明
 │  main.c                            //主函数
 │  README.md 
-│  makefile
+│  makefile                        //项目编译文件
 ├─doc							 //存放了一些关于git和github的说明文档
 │  │  git.md
 │  │  github.md
 │  │  readme.md
 │  │
 │  └─img
-│          library_flow_chart.png
+│          library_flow_chart.png     //项目架构图
 │
 ├─moudle                            //将要实现的功能模块化放至module目录
-│  ├─book                           //存放所有与书籍操作相关的.c .h文件
+│  ├─book                           //存放所有与书籍操作相关的.c .h文件,handleTools存放二级调用函数
 │  │      handleBook.c 
 │  │      handleBook.h
 │  │      handleBookTools.c 
@@ -40,7 +40,7 @@ Collaborative-development-attempt
 │          handleUserTools.c         
 │          handleUserTools.h
 │
-├─data				//所有用户信息和书籍信息存在src目录下
+├─data				//所有用户信息和书籍信息存在data目录下
 │          infoUser.csv
 │          library.csv
 │          record_of_borrowing_books.csv
