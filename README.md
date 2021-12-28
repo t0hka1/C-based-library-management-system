@@ -41,9 +41,6 @@ Collaborative-development-attempt
 ├─src				//所有用户信息和书籍信息存在src目录下
 │      infoUser.txt
 │
-├─toolkit                           //toolkit目录下存放一些工具函数
-│      tool.c
-│      tool.h
 │
 └─view                              //视图的呈现相关放在view目录下
         menu.c
